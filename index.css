@@ -1,0 +1,107 @@
+ .u-section-1 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("images/robin-edqvist-wUEaGqg1fA4-unsplash.jpg");
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 1363px;
+}
+
+.u-section-1 .u-text-1 {
+  font-size: 3.75rem;
+  font-weight: 700;
+  margin: 136px 346px 0 0;
+}
+
+.u-section-1 .u-form-1 {
+  height: 416px;
+  margin: 14px 0 0 570px;
+}
+
+.u-section-1 .u-form-group-3 {
+  margin-left: 0;
+}
+
+.u-section-1 .u-form-group-4 {
+  margin-left: 0;
+}
+
+.u-section-1 .u-form-group-5 {
+  margin-left: 0;
+}
+
+.u-section-1 .u-text-2 {
+  font-size: 1.125rem;
+  margin: 26px 640px 0 0;
+}
+
+.u-section-1 .u-icon-1 {
+  width: 86px;
+  height: 54px;
+  margin: 72px auto 14px;
+  padding: 0;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 1124px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-right: 146px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-right: 440px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 861px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 3rem;
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-form-1 {
+    margin-left: 350px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-right: 220px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 646px;
+  }
+
+  .u-section-1 .u-form-1 {
+    margin-left: 170px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-right: 40px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 407px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 2.25rem;
+  }
+
+  .u-section-1 .u-form-1 {
+    margin-left: 0;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-right: 0;
+  }
+}

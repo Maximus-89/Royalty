@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html style="font-size: 16px;" lang="ru">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="Арендуйте свой дом. Собственная жизнь. Начало чего-то великого., Мы поднимем красоту вашего дома, Мы живем элегантно, жалюзи аппетит себя отвлекли, Мы являемся экспертами в области качественной бизнес-стратегии, Мы лучшее агентство для улучшения ваших сделок, Индивидуальные услуги цифрового маркетинга, Связаться с нами, Запишите меня!">
+    <meta name="description" content="">
+    <title>Квартира Найдена</title>
+    <!-- Подключение библиотеки intl-tel-input -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css">
+    <style>
+        /* Общие стили */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: Arial, sans-serif;
+            color: white;
+        }
+
+        /* Фоновый рисунок на всю страницу */
+        .background {
+            background-image: url('robin-edqvist-wUEaGqg1fA4-unsplash.jpg'); /* Замените на ваш фоновый рисунок */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            min-height: 100vh; /* Минимальная высота на весь экран */
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Шапка */
+        header {
+            display: flex;
+            justify-content: flex-end;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный фон */
+        }
+
+        /* Логотип в шапке */
+        .header-logo {
+            width: 50px;
+            height: 50px;
+        }
+
+        /* Основной контент */
+        .content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный фон */
+        }
+
+        /* Заголовок */
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        /* Текст под заголовком */
+        .description {
+            font-size: 1.2rem;
+            max-width: 800px;
+            margin-bottom: 40px;
+        }
+
+        /* Форма */
+        .u-form {
+            background-color: rgba(255, 255, 255, 0.8); /* Полупрозрачный белый фон */
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 400px;
+            width: 100%;
+            margin-bottom: 40px; /* Отступ между формой и текстом */
+        }
+
+        .u-form-group {
+            margin-bottom: 15px;
+        }
+
+        .u-label {
+            display: block;
+            margin-bottom: 5px;
+            color: black;
+        }
+
+        .u-input {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .u-btn {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        .u-btn:hover {
+            background-color: #0056b3;
+        }
+
+        /* Подвал */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный фон */
+        }
+
+        /* Логотип Telegram в подвале */
+        .footer-logo {
+            width: 50px;
+            height: 50px;
+            object-fit: contain; /* Чтобы логотип не сплющивался */
+        }
+
+        /* Адаптация для мобильных устройств */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+
+            .description {
+                font-size: 1rem;
+            }
+
+            .u-form {
+                padding: 15px;
+            }
+
+            .u-btn {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="background">
+        <!-- Шапка -->
+        <header>
+            <a href="https://t.me/FindAppartment">
+                <img src="232a03da-6734-48c1-972a-e39522c34297.jpg" alt="Логотип" class="header-logo">
+            </a>
+        </header>
+
+        <!-- Основной контент -->
+        <div class="content">
+            <h1>Поможем купить или приобрести квартиру в Краснодарском крае и Крыму — для инвестиций или комфортной жизни!</h1>
+
+            <!-- Форма -->
+            <div class="u-form">
+                <form id="contact-form">
+                    <div class="u-form-group">
+                        <label for="name-b238" class="u-label">Имя</label>
+                        <input type="text" id="name-b238" name="name" class="u-input" required>
+                    </div>
+                    <div class="u-form-group">
+                        <label for="email-b238" class="u-label">Телефон</label>
+                        <input type="tel" id="email-b238" name="phone" class="u-input" required>
+                    </div>
+                    <div class="u-form-group">
+                        <label for="text-0b14" class="u-label">Предполагаемая цена</label>
+                        <input type="text" id="text-0b14" name="price" class="u-input">
+                    </div>
+                    <div class="u-form-group">
+                        <label for="select-1847" class="u-label">Тип жилья</label>
+                        <select id="select-1847" name="type" class="u-input">
+                            <option value="Квартира">Квартира</option>
+                            <option value="Дом">Дом</option>
+                        </select>
+                    </div>
+                    <div class="u-form-group">
+                        <label for="select-05cb" class="u-label">Форма оплаты</label>
+                        <select id="select-05cb" name="payment" class="u-input">
+                            <option value="Наличные">Наличные</option>
+                            <option value="Ипотека">Ипотека</option>
+                        </select>
+                    </div>
+                    <div class="u-form-group">
+                        <button type="submit" class="u-btn">Оставить заявку</button>
+                    </div>
+                </form>
+            </div>
+
+            <!-- Текст под формой -->
+            <p class="description">
+                Ищете недвижимость на юге России? Мы специализируемся на подборе квартир, домов и коммерческой недвижимости в Краснодарском крае и Крыму. Независимо от ваших целей — будь то выгодная инвестиция, покупка жилья для себя или сдача в аренду — мы найдем оптимальный вариант, который устроит вас по цене, локации и качеству.
+            </p>
+        </div>
+
+        <!-- Подвал -->
+        <footer>
+            <a href="https://t.me/FindAppartment">
+                <img src="телега_1711971983493-1711971987606.png" alt="Telegram" class="footer-logo">
+            </a>
+        </footer>
+    </div>
+
+    <!-- Подключение библиотеки intl-tel-input -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+    <script>
+        // Инициализация intl-tel-input для поля телефона
+        const phoneInput = document.getElementById('email-b238');
+        const iti = window.intlTelInput(phoneInput, {
+            initialCountry: 'ru', // Устанавливаем Россию по умолчанию
+            utilsScript: 'https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js', // Подключаем утилиты
+            separateDialCode: false, // Не показывать код страны отдельно
+            nationalMode: false, // Разрешить ввод в международном формате
+            autoFormat: true, // Автоматическое форматирование номера
+            customPlaceholder: function(selectedCountryPlaceholder, selectedCountryData) {
+                return "+7 (XXX) XXX-XX-XX"; // Кастомный плейсхолдер
+            },
+        });
+
+        // Обработка формы и отправка в Telegram
+        document.getElementById('contact-form').addEventListener('submit', function (e) {
+            e.preventDefault();
+            console.log('Форма отправлена'); // Отладочное сообщение
+
+            // Получаем данные из формы
+            const name = document.getElementById('name-b238').value;
+            const phone = iti.getNumber(); // Получаем номер в международном формате
+            const price = document.getElementById('text-0b14').value;
+            const type = document.getElementById('select-1847').value;
+            const payment = document.getElementById('select-05cb').value;
+
+            // Проверка на пустые поля
+            if (!name || !phone) {
+                alert('Пожалуйста, заполните обязательные поля: Имя и Телефон.');
+                return;
+            }
+
+            // Токен вашего бота и ID чата
+            const botToken = '7754918991:AAGcSof33WVG-GTUy97GZVGCH7qPMYLDZnE'; // Замените на токен вашего бота
+            const chatId = '290189881'; // Замените на ID вашего чата
+
+            // Формируем сообщение
+            const message = `Новая заявка:\nИмя: ${name}\nТелефон: ${phone}\nЦена: ${price}\nТип жилья: ${type}\nФорма оплаты: ${payment}`;
+
+            // Отправляем сообщение через Telegram Bot API
+            fetch(`https://api.telegram.org/bot${botToken}/sendMessage`, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    chat_id: chatId,
+                    text: message
+                })
+            })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Ошибка сети');
+                }
+                return response.json();
+            })
+            .then(data => {
+                alert('Ваша заявка отправлена!');
+                console.log('Успешно:', data);
+            })
+            .catch(error => {
+                console.error('Ошибка:', error);
+                alert('Произошла ошибка при отправке заявки.');
+            });
+        });
+    </script>
+</body>
+</html>
